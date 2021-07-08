@@ -11,5 +11,12 @@
     <section>
       <h1 class="text">It's Coming Home..!!</h1>
     </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script>
+      // Split text into words
+      const text = document.querySelector('.text');
+      text.innerHTML = text.textContent.replace(/\$/g, '<span>$&</span>');
+    </script>
   </body>
 </html>
