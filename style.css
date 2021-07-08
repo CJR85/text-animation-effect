@@ -6,3 +6,21 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0e1623;
+  overflow: hidden;
+}
+
+section .text {
+  position: relative;
+  font-size: 5em;
+  text-align: center;
+  color: #fe3300;
+  -webkit-box-reflect: below -0.46em linear-gradient(transparent, #0004);
+}
